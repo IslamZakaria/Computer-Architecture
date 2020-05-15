@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 "Alu32Bit.ngc" Alu32Bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Alu32Bit_map.ncd Alu32Bit.ngd Alu32Bit.pcf 
+par -w -intstyle ise -ol high -mt off Alu32Bit_map.ncd Alu32Bit.ncd Alu32Bit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Alu32Bit.twx Alu32Bit.ncd -o Alu32Bit.twr Alu32Bit.pcf 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 
+xst -intstyle ise -ifn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.xst" -ofn "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.syr" 

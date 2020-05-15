@@ -1,0 +1,66 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFileTest_isim_beh.exe -prj D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFileTest_beh.prj work.RegisterFileTest 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegPack.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/REG.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/muxPack.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/Mux32.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/decoderPack.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/decoder.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 91: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 92: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 93: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 94: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 95: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 96: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 97: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 98: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 99: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 100: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 102: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 103: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 104: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 105: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 106: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 107: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 108: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 109: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 110: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 111: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 113: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 114: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 115: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 116: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 117: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 118: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 119: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 120: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 121: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 122: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 124: Actual for formal port ld is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFile.vhd" Line 125: Actual for formal port ld is neither a static name nor a globally static expression
+Parsing VHDL file "D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFileTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package regpack
+Compiling package decoderpack
+Compiling package muxpack
+Compiling architecture behavioral of entity decoder [\decoder(32)\]
+Compiling architecture behavoiur of entity REG [\REG(32)\]
+Compiling architecture behavioral of entity Mux32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavior of entity registerfiletest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable D:/College/3/Archi Project/RegisterFile/RegisterFile/RegisterFileTest_isim_beh.exe
+Fuse Memory Usage: 36604 KB
+Fuse CPU Usage: 687 ms

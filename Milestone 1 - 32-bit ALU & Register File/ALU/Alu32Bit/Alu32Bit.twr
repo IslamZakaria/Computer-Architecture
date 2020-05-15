@@ -1,0 +1,711 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Alu32Bit.twx Alu32Bit.ncd -o Alu32Bit.twr Alu32Bit.pcf
+
+Design file:              Alu32Bit.ncd
+Physical constraint file: Alu32Bit.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.08 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock oper<0>
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                      | Phase  |
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+A<0>        |   14.069(F)|      SLOW  |    3.327(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<1>        |   13.758(F)|      SLOW  |    3.467(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<2>        |   13.413(F)|      SLOW  |    3.499(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<3>        |   12.934(F)|      SLOW  |    2.696(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<4>        |   12.752(F)|      SLOW  |    3.194(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<5>        |   12.487(F)|      SLOW  |    3.171(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<6>        |   11.903(F)|      SLOW  |    3.356(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<7>        |   10.298(F)|      SLOW  |    3.207(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<8>        |   10.240(F)|      SLOW  |    3.721(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<9>        |    9.718(F)|      SLOW  |    3.403(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<10>       |    9.363(F)|      SLOW  |    3.314(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<11>       |    8.770(F)|      SLOW  |    3.474(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<12>       |    8.814(F)|      SLOW  |    3.290(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<13>       |    8.291(F)|      SLOW  |    3.283(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<14>       |    8.028(F)|      SLOW  |    3.348(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<15>       |    6.610(F)|      SLOW  |    3.669(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<16>       |    7.012(F)|      SLOW  |    3.569(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<17>       |    6.128(F)|      SLOW  |    3.728(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<18>       |    6.209(F)|      SLOW  |    3.492(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<19>       |    5.461(F)|      SLOW  |    2.695(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<20>       |    5.170(F)|      SLOW  |    2.895(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<21>       |    4.202(F)|      SLOW  |    2.936(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<22>       |    4.404(F)|      SLOW  |    2.867(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<23>       |    3.593(F)|      SLOW  |    2.628(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<24>       |    3.632(F)|      SLOW  |    2.702(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<25>       |    3.103(F)|      SLOW  |    2.702(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<26>       |    2.871(F)|      SLOW  |    3.067(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<27>       |    1.682(F)|      SLOW  |    2.992(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<28>       |    2.219(F)|      SLOW  |    2.879(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<29>       |    1.029(F)|      SLOW  |    2.898(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<30>       |    1.129(F)|      SLOW  |    2.787(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<31>       |    0.397(F)|      FAST  |    3.233(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<0>        |   -0.723(F)|      FAST  |    2.874(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.082(F)|      SLOW  |    1.813(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<1>        |   -0.722(F)|      FAST  |    2.868(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.611(F)|      FAST  |    2.243(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<2>        |   -0.733(F)|      FAST  |    2.889(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.659(F)|      FAST  |    2.257(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<3>        |   -0.902(F)|      FAST  |    3.207(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.796(F)|      FAST  |    2.469(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<4>        |   -0.898(F)|      FAST  |    2.894(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.562(F)|      SLOW  |    1.922(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<5>        |   -0.950(F)|      FAST  |    3.202(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.867(F)|      SLOW  |    1.705(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<6>        |   -0.828(F)|      FAST  |    3.022(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.478(F)|      FAST  |    2.360(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<7>        |   -0.752(F)|      FAST  |    2.937(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.709(F)|      SLOW  |    2.024(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<8>        |   -1.344(F)|      FAST  |    3.748(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.040(F)|      FAST  |    3.036(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<9>        |   -1.361(F)|      FAST  |    3.783(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.515(F)|      FAST  |    2.664(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<10>       |   -1.236(F)|      FAST  |    3.600(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.549(F)|      FAST  |    3.197(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<11>       |   -1.016(F)|      FAST  |    3.353(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.398(F)|      FAST  |    2.630(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<12>       |   -1.316(F)|      FAST  |    3.782(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.135(F)|      FAST  |    3.030(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<13>       |   -0.942(F)|      FAST  |    3.219(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.583(F)|      FAST  |    2.445(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<14>       |   -1.095(F)|      FAST  |    3.437(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.135(F)|      FAST  |    3.064(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<15>       |   -0.912(F)|      FAST  |    3.125(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.563(F)|      FAST  |    2.482(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<16>       |   -0.839(F)|      FAST  |    3.092(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.161(F)|      SLOW  |    1.858(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<17>       |   -1.052(F)|      FAST  |    3.343(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.288(F)|      FAST  |    2.494(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<18>       |   -0.798(F)|      FAST  |    3.033(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.384(F)|      FAST  |    2.455(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<19>       |   -1.077(F)|      FAST  |    3.408(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.128(F)|      FAST  |    2.991(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<20>       |   -0.816(F)|      FAST  |    3.029(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.988(F)|      SLOW  |    2.443(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<21>       |   -0.966(F)|      FAST  |    3.238(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.264(F)|      SLOW  |    1.944(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<22>       |   -0.923(F)|      FAST  |    3.268(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.608(F)|      FAST  |    2.753(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<23>       |   -0.671(F)|      FAST  |    2.795(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.039(F)|      SLOW  |    2.092(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<24>       |   -0.898(F)|      FAST  |    2.891(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.411(F)|      SLOW  |    1.739(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<25>       |   -0.689(F)|      FAST  |    2.891(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.594(F)|      SLOW  |    2.083(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<26>       |   -0.821(F)|      FAST  |    3.052(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.288(F)|      SLOW  |    2.094(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<27>       |   -0.612(F)|      FAST  |    2.743(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.906(F)|      SLOW  |    2.430(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<28>       |   -0.745(F)|      FAST  |    3.018(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.152(F)|      SLOW  |    1.896(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<29>       |   -0.660(F)|      FAST  |    2.842(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.950(F)|      SLOW  |    1.652(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<30>       |   -0.869(F)|      FAST  |    3.090(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.696(F)|      SLOW  |    2.395(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<31>       |   -0.983(F)|      FAST  |    3.200(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.599(F)|      SLOW  |    2.456(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Cin         |   14.403(F)|      SLOW  |    3.549(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+
+Setup/Hold to clock oper<1>
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                      | Phase  |
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+A<0>        |   13.458(F)|      SLOW  |    4.033(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<1>        |   13.147(F)|      SLOW  |    4.173(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<2>        |   12.802(F)|      SLOW  |    4.205(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<3>        |   12.323(F)|      SLOW  |    3.402(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<4>        |   12.141(F)|      SLOW  |    3.900(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<5>        |   11.876(F)|      SLOW  |    3.877(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<6>        |   11.292(F)|      SLOW  |    4.062(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<7>        |    9.687(F)|      SLOW  |    3.913(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<8>        |    9.629(F)|      SLOW  |    4.427(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<9>        |    9.107(F)|      SLOW  |    4.109(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<10>       |    8.752(F)|      SLOW  |    4.020(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<11>       |    8.159(F)|      SLOW  |    4.180(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<12>       |    8.203(F)|      SLOW  |    3.996(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<13>       |    7.680(F)|      SLOW  |    3.989(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<14>       |    7.417(F)|      SLOW  |    4.054(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<15>       |    5.999(F)|      SLOW  |    4.375(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<16>       |    6.401(F)|      SLOW  |    4.275(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<17>       |    5.517(F)|      SLOW  |    4.434(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<18>       |    5.598(F)|      SLOW  |    4.198(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<19>       |    4.850(F)|      SLOW  |    3.401(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<20>       |    4.559(F)|      SLOW  |    3.601(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<21>       |    3.591(F)|      SLOW  |    3.642(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<22>       |    3.793(F)|      SLOW  |    3.573(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<23>       |    2.982(F)|      SLOW  |    3.334(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<24>       |    3.021(F)|      SLOW  |    3.408(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<25>       |    2.492(F)|      SLOW  |    3.408(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<26>       |    2.260(F)|      SLOW  |    3.773(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<27>       |    1.071(F)|      SLOW  |    3.698(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<28>       |    1.608(F)|      SLOW  |    3.585(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<29>       |    0.482(F)|      FAST  |    3.604(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<30>       |    0.580(F)|      FAST  |    3.493(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<31>       |   -0.005(F)|      FAST  |    3.939(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<0>        |   -1.277(F)|      FAST  |    3.918(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.494(F)|      FAST  |    2.519(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<1>        |   -1.276(F)|      FAST  |    3.912(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.209(F)|      FAST  |    2.949(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<2>        |   -1.287(F)|      FAST  |    3.933(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.257(F)|      FAST  |    2.963(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<3>        |   -1.456(F)|      FAST  |    4.251(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.394(F)|      FAST  |    3.175(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<4>        |   -1.452(F)|      FAST  |    3.938(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.095(F)|      FAST  |    2.628(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<5>        |   -1.504(F)|      FAST  |    4.246(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.368(F)|      FAST  |    2.411(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<6>        |   -1.382(F)|      FAST  |    4.066(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.076(F)|      FAST  |    3.066(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<7>        |   -1.306(F)|      FAST  |    3.981(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.294(F)|      FAST  |    2.730(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<8>        |   -1.898(F)|      FAST  |    4.792(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.362(F)|      FAST  |    3.742(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<9>        |   -1.915(F)|      FAST  |    4.827(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.113(F)|      FAST  |    3.370(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<10>       |   -1.790(F)|      FAST  |    4.644(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.147(F)|      FAST  |    3.903(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<11>       |   -1.570(F)|      FAST  |    4.397(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.004(F)|      FAST  |    3.336(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<12>       |   -1.870(F)|      FAST  |    4.826(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.267(F)|      FAST  |    3.736(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<13>       |   -1.496(F)|      FAST  |    4.263(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.181(F)|      FAST  |    3.151(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<14>       |   -1.649(F)|      FAST  |    4.481(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.267(F)|      FAST  |    3.770(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<15>       |   -1.466(F)|      FAST  |    4.169(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.161(F)|      FAST  |    3.188(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<16>       |   -1.393(F)|      FAST  |    4.136(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.598(F)|      FAST  |    2.564(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<17>       |   -1.606(F)|      FAST  |    4.387(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.114(F)|      FAST  |    3.200(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<18>       |   -1.352(F)|      FAST  |    4.077(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.018(F)|      FAST  |    3.161(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<19>       |   -1.631(F)|      FAST  |    4.452(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |   -0.274(F)|      FAST  |    3.697(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<20>       |   -1.370(F)|      FAST  |    4.073(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.577(F)|      FAST  |    3.149(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<21>       |   -1.520(F)|      FAST  |    4.282(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.653(F)|      SLOW  |    2.650(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<22>       |   -1.477(F)|      FAST  |    4.312(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.206(F)|      FAST  |    3.459(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<23>       |   -1.225(F)|      FAST  |    3.839(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.487(F)|      FAST  |    2.798(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<24>       |   -1.452(F)|      FAST  |    3.935(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.800(F)|      SLOW  |    2.445(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<25>       |   -1.243(F)|      FAST  |    3.935(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.983(F)|      SLOW  |    2.789(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<26>       |   -1.375(F)|      FAST  |    4.096(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.741(F)|      FAST  |    2.800(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<27>       |   -1.166(F)|      FAST  |    3.787(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.493(F)|      FAST  |    3.136(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<28>       |   -1.299(F)|      FAST  |    4.062(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.717(F)|      FAST  |    2.602(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<29>       |   -1.214(F)|      FAST  |    3.886(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.339(F)|      SLOW  |    2.358(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<30>       |   -1.423(F)|      FAST  |    4.134(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.254(F)|      FAST  |    3.101(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<31>       |   -1.537(F)|      FAST  |    4.244(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.181(F)|      FAST  |    3.162(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Cin         |   13.792(F)|      SLOW  |    4.255(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+
+Setup/Hold to clock oper<2>
+------------+------------+------------+------------+------------+---------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                 | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                | Phase  |
+------------+------------+------------+------------+------------+---------------------------------+--------+
+A<0>        |   14.222(F)|      SLOW  |    3.140(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<1>        |   13.911(F)|      SLOW  |    3.280(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<2>        |   13.566(F)|      SLOW  |    3.312(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<3>        |   13.087(F)|      SLOW  |    2.509(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<4>        |   12.905(F)|      SLOW  |    3.007(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<5>        |   12.640(F)|      SLOW  |    2.984(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<6>        |   12.056(F)|      SLOW  |    3.169(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<7>        |   10.451(F)|      SLOW  |    3.020(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<8>        |   10.393(F)|      SLOW  |    3.534(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<9>        |    9.871(F)|      SLOW  |    3.216(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<10>       |    9.516(F)|      SLOW  |    3.127(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<11>       |    8.923(F)|      SLOW  |    3.287(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<12>       |    8.967(F)|      SLOW  |    3.103(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<13>       |    8.444(F)|      SLOW  |    3.096(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<14>       |    8.181(F)|      SLOW  |    3.161(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<15>       |    6.763(F)|      SLOW  |    3.482(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<16>       |    7.165(F)|      SLOW  |    3.382(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<17>       |    6.281(F)|      SLOW  |    3.541(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<18>       |    6.362(F)|      SLOW  |    3.305(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<19>       |    5.614(F)|      SLOW  |    2.508(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<20>       |    5.323(F)|      SLOW  |    2.708(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<21>       |    4.355(F)|      SLOW  |    2.749(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<22>       |    4.557(F)|      SLOW  |    2.680(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<23>       |    3.746(F)|      SLOW  |    2.441(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<24>       |    3.785(F)|      SLOW  |    2.515(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<25>       |    3.256(F)|      SLOW  |    2.515(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<26>       |    3.024(F)|      SLOW  |    2.880(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<27>       |    1.835(F)|      SLOW  |    2.805(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<28>       |    2.372(F)|      SLOW  |    2.692(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<29>       |    1.182(F)|      SLOW  |    2.711(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<30>       |    1.282(F)|      SLOW  |    2.600(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+A<31>       |    0.528(F)|      FAST  |    3.046(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<0>        |    1.235(F)|      SLOW  |    1.626(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<1>        |    0.742(F)|      FAST  |    2.056(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<2>        |    0.790(F)|      FAST  |    2.070(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<3>        |    0.927(F)|      FAST  |    2.282(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<4>        |    0.715(F)|      SLOW  |    1.735(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<5>        |    1.020(F)|      SLOW  |    1.518(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<6>        |    0.609(F)|      FAST  |    2.173(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<7>        |    0.862(F)|      SLOW  |    1.837(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<8>        |    0.171(F)|      FAST  |    2.849(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<9>        |    0.646(F)|      FAST  |    2.477(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<10>       |    0.680(F)|      FAST  |    3.010(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<11>       |    0.529(F)|      FAST  |    2.443(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<12>       |    0.266(F)|      FAST  |    2.843(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<13>       |    0.714(F)|      FAST  |    2.258(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<14>       |    0.266(F)|      FAST  |    2.877(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<15>       |    0.694(F)|      FAST  |    2.295(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<16>       |    1.314(F)|      SLOW  |    1.671(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<17>       |    0.419(F)|      FAST  |    2.307(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<18>       |    0.515(F)|      FAST  |    2.268(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<19>       |    0.259(F)|      FAST  |    2.804(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<20>       |    1.141(F)|      SLOW  |    2.256(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<21>       |    1.417(F)|      SLOW  |    1.757(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<22>       |    0.739(F)|      FAST  |    2.566(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<23>       |    1.192(F)|      SLOW  |    1.905(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<24>       |    1.564(F)|      SLOW  |    1.552(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<25>       |    1.747(F)|      SLOW  |    1.896(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<26>       |    1.441(F)|      SLOW  |    1.907(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<27>       |    1.059(F)|      SLOW  |    2.243(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<28>       |    1.305(F)|      SLOW  |    1.709(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<29>       |    2.103(F)|      SLOW  |    1.465(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<30>       |    0.849(F)|      SLOW  |    2.208(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+B<31>       |    0.752(F)|      SLOW  |    2.269(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Cin         |   14.556(F)|      SLOW  |    3.362(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+------------+------------+------------+------------+------------+---------------------------------+--------+
+
+Setup/Hold to clock oper<3>
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                                       | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)                      | Phase  |
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+A<0>        |   14.228(F)|      SLOW  |    3.145(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<1>        |   13.917(F)|      SLOW  |    3.285(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<2>        |   13.572(F)|      SLOW  |    3.317(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<3>        |   13.093(F)|      SLOW  |    2.514(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<4>        |   12.911(F)|      SLOW  |    3.012(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<5>        |   12.646(F)|      SLOW  |    2.989(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<6>        |   12.062(F)|      SLOW  |    3.174(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<7>        |   10.457(F)|      SLOW  |    3.025(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<8>        |   10.399(F)|      SLOW  |    3.539(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<9>        |    9.877(F)|      SLOW  |    3.221(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<10>       |    9.522(F)|      SLOW  |    3.132(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<11>       |    8.929(F)|      SLOW  |    3.292(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<12>       |    8.973(F)|      SLOW  |    3.108(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<13>       |    8.450(F)|      SLOW  |    3.101(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<14>       |    8.187(F)|      SLOW  |    3.166(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<15>       |    6.769(F)|      SLOW  |    3.487(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<16>       |    7.171(F)|      SLOW  |    3.387(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<17>       |    6.287(F)|      SLOW  |    3.546(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<18>       |    6.368(F)|      SLOW  |    3.310(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<19>       |    5.620(F)|      SLOW  |    2.513(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<20>       |    5.329(F)|      SLOW  |    2.713(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<21>       |    4.361(F)|      SLOW  |    2.754(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<22>       |    4.563(F)|      SLOW  |    2.685(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<23>       |    3.752(F)|      SLOW  |    2.446(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<24>       |    3.791(F)|      SLOW  |    2.520(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<25>       |    3.262(F)|      SLOW  |    2.520(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<26>       |    3.030(F)|      SLOW  |    2.885(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<27>       |    1.841(F)|      SLOW  |    2.810(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<28>       |    2.378(F)|      SLOW  |    2.697(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<29>       |    1.188(F)|      SLOW  |    2.716(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<30>       |    1.288(F)|      SLOW  |    2.605(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+A<31>       |    0.546(F)|      FAST  |    3.051(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<0>        |   -0.528(F)|      FAST  |    2.584(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.241(F)|      SLOW  |    1.631(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<1>        |   -0.527(F)|      FAST  |    2.578(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.760(F)|      FAST  |    2.061(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<2>        |   -0.538(F)|      FAST  |    2.599(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.808(F)|      FAST  |    2.075(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<3>        |   -0.707(F)|      FAST  |    2.917(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.945(F)|      FAST  |    2.287(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<4>        |   -0.703(F)|      FAST  |    2.604(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.721(F)|      SLOW  |    1.740(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<5>        |   -0.755(F)|      FAST  |    2.912(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.026(F)|      SLOW  |    1.523(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<6>        |   -0.633(F)|      FAST  |    2.732(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.627(F)|      FAST  |    2.178(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<7>        |   -0.557(F)|      FAST  |    2.647(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.868(F)|      SLOW  |    1.842(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<8>        |   -1.149(F)|      FAST  |    3.458(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.189(F)|      FAST  |    2.854(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<9>        |   -1.166(F)|      FAST  |    3.493(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.664(F)|      FAST  |    2.482(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<10>       |   -1.041(F)|      FAST  |    3.310(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.698(F)|      FAST  |    3.015(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<11>       |   -0.821(F)|      FAST  |    3.063(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.547(F)|      FAST  |    2.448(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<12>       |   -1.121(F)|      FAST  |    3.492(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.284(F)|      FAST  |    2.848(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<13>       |   -0.747(F)|      FAST  |    2.929(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.732(F)|      FAST  |    2.263(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<14>       |   -0.900(F)|      FAST  |    3.147(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.284(F)|      FAST  |    2.882(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<15>       |   -0.717(F)|      FAST  |    2.835(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.712(F)|      FAST  |    2.300(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<16>       |   -0.644(F)|      FAST  |    2.802(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.320(F)|      SLOW  |    1.676(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<17>       |   -0.857(F)|      FAST  |    3.053(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.437(F)|      FAST  |    2.312(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<18>       |   -0.603(F)|      FAST  |    2.743(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.533(F)|      FAST  |    2.273(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<19>       |   -0.882(F)|      FAST  |    3.118(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.277(F)|      FAST  |    2.809(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<20>       |   -0.621(F)|      FAST  |    2.739(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.147(F)|      SLOW  |    2.261(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<21>       |   -0.771(F)|      FAST  |    2.948(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.423(F)|      SLOW  |    1.762(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<22>       |   -0.728(F)|      FAST  |    2.978(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.757(F)|      FAST  |    2.571(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<23>       |   -0.476(F)|      FAST  |    2.505(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.198(F)|      SLOW  |    1.910(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<24>       |   -0.703(F)|      FAST  |    2.601(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.570(F)|      SLOW  |    1.557(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<25>       |   -0.494(F)|      FAST  |    2.601(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.753(F)|      SLOW  |    1.901(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<26>       |   -0.626(F)|      FAST  |    2.762(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.447(F)|      SLOW  |    1.912(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<27>       |   -0.417(F)|      FAST  |    2.453(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.065(F)|      SLOW  |    2.248(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<28>       |   -0.550(F)|      FAST  |    2.728(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    1.311(F)|      SLOW  |    1.714(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<29>       |   -0.465(F)|      FAST  |    2.552(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    2.109(F)|      SLOW  |    1.470(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<30>       |   -0.674(F)|      FAST  |    2.800(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.855(F)|      SLOW  |    2.213(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+B<31>       |   -0.788(F)|      FAST  |    2.910(F)|      SLOW  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+            |    0.758(F)|      SLOW  |    2.274(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Cin         |   14.562(F)|      SLOW  |    3.367(F)|      SLOW  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+------------+------------+------------+------------+---------------------------------------+--------+
+
+Clock oper<0> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+Cout        |        25.627(F)|      SLOW  |         5.046(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+OverFlow    |        25.799(F)|      SLOW  |         5.125(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+Result<0>   |         7.819(F)|      SLOW  |         3.749(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<1>   |         7.793(F)|      SLOW  |         3.723(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<2>   |         7.802(F)|      SLOW  |         3.734(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<3>   |         7.799(F)|      SLOW  |         3.727(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<4>   |         7.771(F)|      SLOW  |         3.703(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<5>   |         7.771(F)|      SLOW  |         3.702(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<6>   |         7.792(F)|      SLOW  |         3.720(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<7>   |         7.793(F)|      SLOW  |         3.721(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<8>   |         7.790(F)|      SLOW  |         3.718(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<9>   |         7.750(F)|      SLOW  |         3.679(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<10>  |         7.947(F)|      SLOW  |         3.808(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<11>  |         7.967(F)|      SLOW  |         3.833(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<12>  |         7.965(F)|      SLOW  |         3.831(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<13>  |         7.981(F)|      SLOW  |         3.848(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<14>  |         7.988(F)|      SLOW  |         3.855(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<15>  |         7.956(F)|      SLOW  |         3.823(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<16>  |         7.958(F)|      SLOW  |         3.825(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<17>  |         7.795(F)|      SLOW  |         3.723(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<18>  |         7.787(F)|      SLOW  |         3.716(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<19>  |         7.799(F)|      SLOW  |         3.727(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<20>  |         7.746(F)|      SLOW  |         3.672(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<21>  |         7.801(F)|      SLOW  |         3.726(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<22>  |         7.798(F)|      SLOW  |         3.723(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<23>  |         7.808(F)|      SLOW  |         3.734(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<24>  |         7.808(F)|      SLOW  |         3.733(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<25>  |         7.807(F)|      SLOW  |         3.732(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<26>  |         7.805(F)|      SLOW  |         3.730(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<27>  |         7.812(F)|      SLOW  |         3.737(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<28>  |         7.812(F)|      SLOW  |         3.737(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<29>  |         7.784(F)|      SLOW  |         3.710(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<30>  |         7.779(F)|      SLOW  |         3.706(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<31>  |         7.803(F)|      SLOW  |         3.729(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Zero        |        12.417(F)|      SLOW  |         4.880(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock oper<1> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+Cout        |        26.671(F)|      SLOW  |         5.600(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+OverFlow    |        26.843(F)|      SLOW  |         5.679(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+Result<0>   |         8.525(F)|      SLOW  |         4.151(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<1>   |         8.499(F)|      SLOW  |         4.125(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<2>   |         8.508(F)|      SLOW  |         4.136(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<3>   |         8.505(F)|      SLOW  |         4.129(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<4>   |         8.477(F)|      SLOW  |         4.105(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<5>   |         8.477(F)|      SLOW  |         4.104(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<6>   |         8.498(F)|      SLOW  |         4.122(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<7>   |         8.499(F)|      SLOW  |         4.123(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<8>   |         8.496(F)|      SLOW  |         4.120(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<9>   |         8.456(F)|      SLOW  |         4.081(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<10>  |         8.653(F)|      SLOW  |         4.210(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<11>  |         8.673(F)|      SLOW  |         4.235(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<12>  |         8.671(F)|      SLOW  |         4.233(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<13>  |         8.687(F)|      SLOW  |         4.250(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<14>  |         8.694(F)|      SLOW  |         4.257(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<15>  |         8.662(F)|      SLOW  |         4.225(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<16>  |         8.664(F)|      SLOW  |         4.227(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<17>  |         8.501(F)|      SLOW  |         4.125(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<18>  |         8.493(F)|      SLOW  |         4.118(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<19>  |         8.505(F)|      SLOW  |         4.129(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<20>  |         8.452(F)|      SLOW  |         4.074(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<21>  |         8.507(F)|      SLOW  |         4.128(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<22>  |         8.504(F)|      SLOW  |         4.125(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<23>  |         8.514(F)|      SLOW  |         4.136(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<24>  |         8.514(F)|      SLOW  |         4.135(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<25>  |         8.513(F)|      SLOW  |         4.134(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<26>  |         8.511(F)|      SLOW  |         4.132(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<27>  |         8.518(F)|      SLOW  |         4.139(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<28>  |         8.518(F)|      SLOW  |         4.139(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<29>  |         8.490(F)|      SLOW  |         4.112(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<30>  |         8.485(F)|      SLOW  |         4.108(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<31>  |         8.509(F)|      SLOW  |         4.131(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Zero        |        13.123(F)|      SLOW  |         5.282(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock oper<2> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                 | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+Result<0>   |         7.632(F)|      SLOW  |         3.618(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<1>   |         7.606(F)|      SLOW  |         3.592(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<2>   |         7.615(F)|      SLOW  |         3.603(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<3>   |         7.612(F)|      SLOW  |         3.596(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<4>   |         7.584(F)|      SLOW  |         3.572(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<5>   |         7.584(F)|      SLOW  |         3.571(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<6>   |         7.605(F)|      SLOW  |         3.589(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<7>   |         7.606(F)|      SLOW  |         3.590(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<8>   |         7.603(F)|      SLOW  |         3.587(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<9>   |         7.563(F)|      SLOW  |         3.548(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<10>  |         7.760(F)|      SLOW  |         3.677(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<11>  |         7.780(F)|      SLOW  |         3.702(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<12>  |         7.778(F)|      SLOW  |         3.700(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<13>  |         7.794(F)|      SLOW  |         3.717(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<14>  |         7.801(F)|      SLOW  |         3.724(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<15>  |         7.769(F)|      SLOW  |         3.692(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<16>  |         7.771(F)|      SLOW  |         3.694(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<17>  |         7.608(F)|      SLOW  |         3.592(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<18>  |         7.600(F)|      SLOW  |         3.585(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<19>  |         7.612(F)|      SLOW  |         3.596(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<20>  |         7.559(F)|      SLOW  |         3.541(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<21>  |         7.614(F)|      SLOW  |         3.595(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<22>  |         7.611(F)|      SLOW  |         3.592(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<23>  |         7.621(F)|      SLOW  |         3.603(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<24>  |         7.621(F)|      SLOW  |         3.602(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<25>  |         7.620(F)|      SLOW  |         3.601(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<26>  |         7.618(F)|      SLOW  |         3.599(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<27>  |         7.625(F)|      SLOW  |         3.606(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<28>  |         7.625(F)|      SLOW  |         3.606(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<29>  |         7.597(F)|      SLOW  |         3.579(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<30>  |         7.592(F)|      SLOW  |         3.575(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Result<31>  |         7.616(F)|      SLOW  |         3.598(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+Zero        |        12.230(F)|      SLOW  |         4.749(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------+--------+
+
+Clock oper<3> to Pad
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                       | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                      | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+Cout        |        25.337(F)|      SLOW  |         4.851(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+OverFlow    |        25.509(F)|      SLOW  |         4.930(F)|      FAST  |Alu0/oper[3]_GND_7_o_equal_7_o<3>1_BUFG|   0.000|
+Result<0>   |         7.637(F)|      SLOW  |         3.600(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<1>   |         7.611(F)|      SLOW  |         3.574(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<2>   |         7.620(F)|      SLOW  |         3.585(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<3>   |         7.617(F)|      SLOW  |         3.578(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<4>   |         7.589(F)|      SLOW  |         3.554(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<5>   |         7.589(F)|      SLOW  |         3.553(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<6>   |         7.610(F)|      SLOW  |         3.571(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<7>   |         7.611(F)|      SLOW  |         3.572(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<8>   |         7.608(F)|      SLOW  |         3.569(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<9>   |         7.568(F)|      SLOW  |         3.530(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<10>  |         7.765(F)|      SLOW  |         3.659(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<11>  |         7.785(F)|      SLOW  |         3.684(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<12>  |         7.783(F)|      SLOW  |         3.682(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<13>  |         7.799(F)|      SLOW  |         3.699(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<14>  |         7.806(F)|      SLOW  |         3.706(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<15>  |         7.774(F)|      SLOW  |         3.674(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<16>  |         7.776(F)|      SLOW  |         3.676(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<17>  |         7.613(F)|      SLOW  |         3.574(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<18>  |         7.605(F)|      SLOW  |         3.567(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<19>  |         7.617(F)|      SLOW  |         3.578(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<20>  |         7.564(F)|      SLOW  |         3.523(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<21>  |         7.619(F)|      SLOW  |         3.577(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<22>  |         7.616(F)|      SLOW  |         3.574(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<23>  |         7.626(F)|      SLOW  |         3.585(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<24>  |         7.626(F)|      SLOW  |         3.584(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<25>  |         7.625(F)|      SLOW  |         3.583(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<26>  |         7.623(F)|      SLOW  |         3.581(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<27>  |         7.630(F)|      SLOW  |         3.588(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<28>  |         7.630(F)|      SLOW  |         3.588(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<29>  |         7.602(F)|      SLOW  |         3.561(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<30>  |         7.597(F)|      SLOW  |         3.557(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Result<31>  |         7.621(F)|      SLOW  |         3.580(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+Zero        |        12.235(F)|      SLOW  |         4.731(F)|      FAST  |Alu31/oper[3]_oper[3]_OR_8_o_BUFG      |   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------------------------+--------+
+
+Clock to Setup on destination clock oper<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+oper<0>        |         |         |    2.359|   18.273|
+oper<1>        |         |         |    2.783|   18.273|
+oper<2>        |         |         |    3.568|    3.568|
+oper<3>        |         |         |    0.265|   18.273|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock oper<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+oper<0>        |         |         |    1.748|   18.273|
+oper<1>        |         |         |    2.172|   18.273|
+oper<2>        |         |         |    2.957|    2.957|
+oper<3>        |         |         |   -0.289|   18.273|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock oper<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+oper<0>        |         |         |    2.512|   18.273|
+oper<1>        |         |         |    2.936|   18.273|
+oper<2>        |         |         |    3.721|    3.721|
+oper<3>        |         |         |         |   18.273|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock oper<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+oper<0>        |         |         |    2.518|   18.273|
+oper<1>        |         |         |    2.942|   18.273|
+oper<2>        |         |         |    3.727|    3.727|
+oper<3>        |         |         |    0.460|   18.273|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |   21.030|
+A<0>           |OverFlow       |   21.202|
+A<1>           |Cout           |   20.719|
+A<1>           |OverFlow       |   20.891|
+A<2>           |Cout           |   20.374|
+A<2>           |OverFlow       |   20.546|
+A<3>           |Cout           |   19.895|
+A<3>           |OverFlow       |   20.067|
+A<4>           |Cout           |   19.713|
+A<4>           |OverFlow       |   19.885|
+A<5>           |Cout           |   19.448|
+A<5>           |OverFlow       |   19.620|
+A<6>           |Cout           |   18.864|
+A<6>           |OverFlow       |   19.036|
+A<7>           |Cout           |   17.259|
+A<7>           |OverFlow       |   17.431|
+A<8>           |Cout           |   17.201|
+A<8>           |OverFlow       |   17.373|
+A<9>           |Cout           |   16.679|
+A<9>           |OverFlow       |   16.851|
+A<10>          |Cout           |   16.324|
+A<10>          |OverFlow       |   16.496|
+A<11>          |Cout           |   15.731|
+A<11>          |OverFlow       |   15.903|
+A<12>          |Cout           |   15.775|
+A<12>          |OverFlow       |   15.947|
+A<13>          |Cout           |   15.252|
+A<13>          |OverFlow       |   15.424|
+A<14>          |Cout           |   14.989|
+A<14>          |OverFlow       |   15.161|
+A<15>          |Cout           |   13.571|
+A<15>          |OverFlow       |   13.743|
+A<16>          |Cout           |   13.973|
+A<16>          |OverFlow       |   14.145|
+A<17>          |Cout           |   13.089|
+A<17>          |OverFlow       |   13.261|
+A<18>          |Cout           |   13.170|
+A<18>          |OverFlow       |   13.342|
+A<19>          |Cout           |   12.422|
+A<19>          |OverFlow       |   12.594|
+A<20>          |Cout           |   12.131|
+A<20>          |OverFlow       |   12.303|
+A<21>          |Cout           |   11.163|
+A<21>          |OverFlow       |   11.335|
+A<22>          |Cout           |   11.365|
+A<22>          |OverFlow       |   11.537|
+A<23>          |Cout           |   10.554|
+A<23>          |OverFlow       |   10.726|
+A<24>          |Cout           |   10.593|
+A<24>          |OverFlow       |   10.765|
+A<25>          |Cout           |   10.064|
+A<25>          |OverFlow       |   10.236|
+A<26>          |Cout           |    9.832|
+A<26>          |OverFlow       |   10.004|
+A<27>          |Cout           |    8.643|
+A<27>          |OverFlow       |    8.815|
+A<28>          |Cout           |    9.180|
+A<28>          |OverFlow       |    9.352|
+A<29>          |Cout           |    7.990|
+A<29>          |OverFlow       |    8.162|
+A<30>          |Cout           |    8.090|
+A<30>          |OverFlow       |    8.262|
+A<31>          |Cout           |    6.099|
+A<31>          |OverFlow       |    6.270|
+Cin            |Cout           |   21.364|
+Cin            |OverFlow       |   21.536|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Apr 30 22:16:07 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5002 MB
+
+
+

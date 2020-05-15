@@ -1,0 +1,4 @@
+vhdl work "AluPack.vhd"
+vhdl work "ALU1.vhd"
+vhdl work "Alu32Bit.vhd"
+vhdl work "ALUTest.vhd"

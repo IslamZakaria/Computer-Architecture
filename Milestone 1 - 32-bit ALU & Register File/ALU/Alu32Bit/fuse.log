@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/College/3/Archi Project/Alu32Bit/ALUTest_isim_beh.exe -prj D:/College/3/Archi Project/Alu32Bit/ALUTest_beh.prj work.ALUTest 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/College/3/Archi Project/Alu32Bit/AluPack.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/Alu32Bit/ALU1.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/Alu32Bit/Alu32Bit.vhd" into library work
+Parsing VHDL file "D:/College/3/Archi Project/Alu32Bit/ALUTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package alupack
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ALU1 [alu1_default]
+Compiling architecture behavioral of entity Alu [\Alu(32)\]
+Compiling architecture behavior of entity alutest
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable D:/College/3/Archi Project/Alu32Bit/ALUTest_isim_beh.exe
+Fuse Memory Usage: 34436 KB
+Fuse CPU Usage: 421 ms
